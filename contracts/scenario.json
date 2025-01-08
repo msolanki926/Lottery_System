@@ -1,0 +1,116 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1736337996179,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x71e4b2909acf1de2c30d8f85f23d6091558e6c4d795bc3aa7ef9bf690fd1d411",
+        "contractName": "lottery",
+        "bytecode": "6080604052348015600e575f5ffd5b50335f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506105f88061005b5f395ff3fe608060405260043610610054575f3560e01c80631cbeae5e14610058578063481c6a75146100945780634d9b3d5d146100be5780635ec01e4d146100e8578063d11711a214610112578063f71d96cb1461011c575b5f5ffd5b348015610063575f5ffd5b5061007e600480360381019061007991906103a2565b610158565b60405161008b919061040c565b60405180910390f35b34801561009f575f5ffd5b506100a8610193565b6040516100b59190610445565b60405180910390f35b3480156100c9575f5ffd5b506100d26101b7565b6040516100df919061046d565b60405180910390f35b3480156100f3575f5ffd5b506100fc61024c565b604051610109919061046d565b60405180910390f35b61011a610284565b005b348015610127575f5ffd5b50610142600480360381019061013d91906103a2565b610330565b60405161014f919061040c565b60405180910390f35b60028181548110610167575f80fd5b905f5260205f20015f915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b5f3373ffffffffffffffffffffffffffffffffffffffff165f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614610246576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161023d906104e0565b60405180910390fd5b47905090565b5f44426001805490506040516020016102679392919061051e565b604051602081830303815290604052805190602001205f1c905090565b670de0b6b3a764000034146102ce576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102c5906105a4565b60405180910390fd5b600133908060018154018082558091505060019003905f5260205f20015f9091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6001818154811061033f575f80fd5b905f5260205f20015f915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b5f5ffd5b5f819050919050565b6103818161036f565b811461038b575f5ffd5b50565b5f8135905061039c81610378565b92915050565b5f602082840312156103b7576103b661036b565b5b5f6103c48482850161038e565b91505092915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6103f6826103cd565b9050919050565b610406816103ec565b82525050565b5f60208201905061041f5f8301846103fd565b92915050565b5f61042f826103cd565b9050919050565b61043f81610425565b82525050565b5f6020820190506104585f830184610436565b92915050565b6104678161036f565b82525050565b5f6020820190506104805f83018461045e565b92915050565b5f82825260208201905092915050565b7f596f7520617265206e6f742061206d616e6167657200000000000000000000005f82015250565b5f6104ca601583610486565b91506104d582610496565b602082019050919050565b5f6020820190508181035f8301526104f7816104be565b9050919050565b5f819050919050565b6105186105138261036f565b6104fe565b82525050565b5f6105298286610507565b6020820191506105398285610507565b6020820191506105498284610507565b602082019150819050949350505050565b7f506c6561736520506179203120657468657200000000000000000000000000005f82015250565b5f61058e601283610486565b91506105998261055a565b602082019050919050565b5f6020820190508181035f8301526105bb81610582565b905091905056fea26469706673582212203d5bddc8ca4887fc50151be427037264bf729208d39a599ca53922f56f14249b64736f6c634300081c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x71e4b2909acf1de2c30d8f85f23d6091558e6c4d795bc3aa7ef9bf690fd1d411": [
+      {
+        "inputs": [],
+        "name": "participate",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "getbalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "manager",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "players",
+        "outputs": [
+          {
+            "internalType": "address payable",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "random",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "winner",
+        "outputs": [
+          {
+            "internalType": "address payable",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}

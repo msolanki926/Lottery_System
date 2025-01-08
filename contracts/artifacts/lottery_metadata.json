@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -63,6 +63,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -110,11 +123,11 @@
 	},
 	"sources": {
 		"contracts/Lottery.sol": {
-			"keccak256": "0xb09603754665544909d6d9ba52174a3bf807f5d2e5572d8edc4721644776275a",
+			"keccak256": "0x4ee1e70ed6cb20d085b4ec64aa7a84ac5d2c5939889be0e4fd0e07273c2d9ef1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0b98b3503b1f2f32f3f29cdcf08f8dd2449e275f2d3cece1c694eac748b2591d",
-				"dweb:/ipfs/Qmcu3o1g36PraAXQQJXqDxKAyKQv13qtgo85YxRQGVDMnt"
+				"bzz-raw://47e919266f836ad4219c1f93356a14184392205d6a659eb1267fbecd632ae20a",
+				"dweb:/ipfs/QmXL2WRuKyuWrAb95DTtZatAjcTtqzYTnCsEzkJpZkmKwm"
 			]
 		}
 	},

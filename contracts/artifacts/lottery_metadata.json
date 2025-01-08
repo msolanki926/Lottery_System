@@ -12,6 +12,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -97,11 +110,11 @@
 	},
 	"sources": {
 		"contracts/Lottery.sol": {
-			"keccak256": "0x885d81accb5d5c90fa6c0fb13f17d0100930af86d459c3a360cc0326aaf870cf",
+			"keccak256": "0xb09603754665544909d6d9ba52174a3bf807f5d2e5572d8edc4721644776275a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://40813244a67620a6b93363e9fce5ff5b422d1ae94823aa4ac70642acf80173d0",
-				"dweb:/ipfs/QmYEANagZD2RskwfcRt3gAqhm3mUAV89zfb6XTzohPY8V8"
+				"bzz-raw://0b98b3503b1f2f32f3f29cdcf08f8dd2449e275f2d3cece1c694eac748b2591d",
+				"dweb:/ipfs/Qmcu3o1g36PraAXQQJXqDxKAyKQv13qtgo85YxRQGVDMnt"
 			]
 		}
 	},

@@ -19,4 +19,10 @@ contract lottery
         require(msg.value==1 ether,"Please Pay 1 ether");
         players.push(payable (msg.sender));
     }
+
+    function getbalance() public view returns(uint)
+    {
+        require(manager==msg.sender,"You are not a manager");
+        return address(this).balance;
+    }
 }
